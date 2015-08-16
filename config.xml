@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" 
+	id        = "com.brinkerink.km" 
+	version   = "1.5" >
+
+<name>Experience</name>
+
+<description>Experience Konica Minolta</description>
+
+<author href="http://www.brinkerink.nl" email="info@brinkerink.nl">
+Brinkerink &amp; Partners
+</author>
+
+<icon src="icons/app-icoon-57x57.png" gap:platform="ios" width="57" height="57" />
+<icon src="icons/app-icoon-72x72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/app-icoon-76x76.png" gap:platform="ios" width="76" height="76" />
+<icon src="icons/app-icoon-114x114.png" gap:platform="ios" width="114" height="114" />
+<icon src="icons/app-icoon-120x120.png" gap:platform="ios" width="120" height="120" />
+<icon src="icons/app-icoon-152x152.png" gap:platform="ios" width="152" height="152" />
+
+<icon src="icons/app-icoon-48x48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/app-icoon-72x72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/app-icoon-96x96.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash/KM1517-splashscreen-480x800-samsung2.png"  gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/KM1517-splashscreen-720x1280-samsung3.png"  gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash/KM1517-splashscreen-320x480-ios.png"    gap:platform="ios"     width="320" height="480" />
+<gap:splash src="splash/KM1517-splashscreen-640x960-ios.png"    gap:platform="ios"     width="640" height="960" />
+<gap:splash src="splash/KM1517-splashscreen-640x1136-ios.png"    gap:platform="ios"     width="640" height="1136" />
+<gap:splash src="splash/KM1517-splashscreen-768x1024-ios.png"    gap:platform="ios"     width="768" height="1024" />
+<gap:splash src="splash/KM1517-splashscreen-1024x768-ios.png"    gap:platform="ios"     width="1024" height="768" />
+
+<preference name="prerendered-icon" value="true" />
+<preference name="orientation" value="default" />
+<preference name="webviewbounce" value="false" />
+<preference name="splash-screen-duration" value="4000" />
+<preference name="stay-in-webview" value="false" />
+<access origin="*" />
+
+<feature name="http://api.phonegap.com/1.0/network"/>
+
+
+</widget>

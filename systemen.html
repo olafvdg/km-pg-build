@@ -1,0 +1,45 @@
+<html>
+<body> 
+<div data-role="page" id="systemen">
+	<div data-role="header"  data-position="fixed" data-theme="a" >
+		<a href="#startscherm"></a>
+		<h1>CONFIGURATIES</h1>
+	</div>
+	<div data-role="content" data-theme="b">
+		<ul id="listview" data-role="listview" data-filter="true" data-filter-placeholder="Zoeken...">
+		</ul>
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footernav">
+		<div data-role="navbar" class="bottomnav">
+			<ul>
+				<li><a href="#plattegrond" data-icon="plattegrond" >Plattegrond</a></li>
+				<li><a href="systemen.html" data-icon="systemen" class="ui-btn-active ui-state-persist">Configuraties</a></li>
+				<li><a href="locatie.html" data-icon="locatie" >Locatie</a></li>
+				<li><a href="contact.html" data-icon="contact" >Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" class="systeempanel">
+		<div data-role="header"  data-position="fixed" data-theme="a" >
+			<h1><span id="naam">Systeemdetails</span></h1>
+		</div>
+		<div data-role="content" data-theme="b">
+			<div data-role="collapsible-set" data-inset="false" data-theme="a" data-content-theme="b">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3><div class="listnumber"></div>Omschrijving</h3>
+					<div id="intro"></div>
+				</div>
+				<div data-role="collapsible">
+					<h3>Eigenschappen</h3>
+					<div id="eigenschappen"></div>
+				</div>
+				<div data-role="collapsible">
+					<h3>Configuratie</h3>
+					<div id="configuratie"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<body> 
+<div data-role="page" id="contact">
+	<div data-role="header"  data-position="fixed" data-theme="a" >
+		<a href="#startscherm"></a>
+		<h1>CONTACT</h1>
+	</div>
+	<div data-role="content" data-theme="a">
+		<form id="formulier">
+			<label for="aanvraag_info">Ik wil graag meer informatie</label>
+			<input type="radio" name="aanvraag" id="aanvraag_info" value="informatie" checked="checked">
+			<label for="aanvraag_demo">Ik wil graag een demo</label>
+			<input type="radio" name="aanvraag" id="aanvraag_demo" value="demo">
+			<input type="text" name="naam" id="formnaam" placeholder="Naam..." value="">
+			<input type="text" name="bedrijf" id="formbedrijf" placeholder="Bedrijfsnaam..." value="">
+			<input type="text" name="email" id="formemail" placeholder="E-mail..." value="">
+			<input type="text" name="telefoon" id="formtel" placeholder="Telefoon..." value="">
+			<textarea cols="40" rows="8" name="bericht" id="formbericht" placeholder="Uw bericht..." style="height:100px;"></textarea>
+			<button data-theme="b" data-corners="false" type="submit" id="formsubmit">VERSTUREN</button>
+		</form>
+		<div id="telbutton">
+			<button data-theme="b" data-corners="false" onclick="window.location.href='tel:+31206584141'");">BELLEN</button>
+		</div>
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footernav">
+		<div data-role="navbar" class="bottomnav">
+			<ul>
+				<li><a href="#plattegrond" data-icon="plattegrond" >Plattegrond</a></li>
+				<li><a href="systemen.html" data-icon="systemen" >Configuraties</a></li>
+				<li><a href="locatie.html" data-icon="locatie" >Locatie</a></li>
+				<li><a href="contact.html" data-icon="contact" class="ui-btn-active ui-state-persist">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>
